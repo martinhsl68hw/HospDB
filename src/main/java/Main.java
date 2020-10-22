@@ -11,7 +11,6 @@ public class Main {
         db.contactAll("Clear the hospital! Emergency!");
 
 
-        Doctor doc=new Doctor("Jim");
 
     }
 }
