@@ -11,6 +11,7 @@ public class Main {
         db.contactAll("Clear the hospital! Emergency!");
 
         db.contactAll("That was just a test!");
+        db.contactAll("Yes it was");
 
 
     }
