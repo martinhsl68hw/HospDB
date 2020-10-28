@@ -10,6 +10,7 @@ public class Main {
         db.addPatient("Mr Jim Browning", "88787");
         db.contactAll("Clear the hospital! Emergency!");
 
+        db.contactAll("That was just a test!");
 
 
     }
