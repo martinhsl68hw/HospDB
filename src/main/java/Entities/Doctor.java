@@ -1,6 +1,6 @@
-package People;
+package Entities;
 
-public class Doctor extends Person{
+public class Doctor extends Person implements Trackable{
 
     public Doctor(String name){
         // Call Person's constructor
@@ -13,4 +13,9 @@ public class Doctor extends Person{
         System.out.println("Page "+name+" on "+contactNum+":"+msg);
     }
 
+    @Override
+    //Implements the Trackable interface
+    public String whereAmI() {
+        return "Location of "+name;
+    }
 }

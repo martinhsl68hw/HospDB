@@ -1,6 +1,6 @@
-import People.Doctor;
-import People.Patient;
-import People.Person;
+import Entities.Doctor;
+import Entities.Patient;
+import Entities.Person;
 
 import java.util.ArrayList;
 
@@ -29,4 +29,5 @@ public class HospDB {
             p.contact(msg);
         }
     }
+
 }
